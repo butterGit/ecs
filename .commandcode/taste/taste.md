@@ -1,0 +1,4 @@
+- Prefers readable, well-organized shell scripts — named functions, section comments, and consistent log output. Confidence: 0.7
+- Prefers explicit control flow over terse shell idioms (e.g. replacing `|| true` with an explicit `if` guard). Confidence: 0.7
+- Prefers the simplest correct solution and pushes back on redundant/over-engineered code (e.g. a single idempotent `create-cluster` call over a describe-then-create guard). Confidence: 0.6
+- Works in Git Bash on Windows (MINGW64/MSYS2); expects bash-compatible commands, and `/`-prefixed arguments may need `MSYS_NO_PATHCONV=1` to avoid MSYS path rewriting. Confidence: 0.8

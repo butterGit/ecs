@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(bash -n aws/deploy.sh)"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}
